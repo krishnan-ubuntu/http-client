@@ -1,0 +1,20 @@
+{
+    "name": "krishnan/http-client",
+    "description": "Simple HTTP client for PHP",
+    "keywords": ["php", "http", "http-client", "php-curl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krishnan",
+            "email": "krishnan.ubuntu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Krishnan\\Http\\": "src/"
+        }
+    }
+}
